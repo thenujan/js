@@ -1,9 +1,9 @@
 <p id="squ" ></p>
 <script>
-function square(n){
+function square(x){
 return n*n;
 }
-document.getElementById("squ").innerHTML= square(7);
+document.getElementById("square").innerHTML= square(5);
 </script>
 
 
@@ -14,7 +14,7 @@ document.getElementById("squ").innerHTML= square(7);
 function addNum(num1, num2){
   return num1+num2;
 }
-document.getElementById("add").innerHTML= addNum(4, 7);
+document.getElementById("add").innerHTML= addNum(4, 5);
 </script>
 
 <script>
@@ -30,7 +30,7 @@ document.getElementById("multi").innerHTML= multiNum(4, 7);
 function subtractNum(num1, num2){
   return num1 - num2;
 }
-document.getElementById("subtract").innerHTML= subtractNum(3, 5);
+document.getElementById("subtract").innerHTML= subtractNum(6, 5);
 </script>
 
 <p id="divide"></p>
@@ -55,13 +55,13 @@ alertHello()
 function volume(l,w,h) {
   return l*w*h;
 }
-document.getElementById("vol").innerHTML= volume(5,6,7);
+document.getElementById("vol").innerHTML= volume(3,4,5);
 </script>
 
 
 <p id="name"></p>
 <script>
-var person= {firstName:"kavi" , lastName:"thenu", age:20, city:"Mulithivu"};
+var person= {firstName:"Nimal" , lastName:"Raj", age:15, city:"Kandy"};
 document.getElementById("name").innerHTML= "My name is " + person.firstName
 + " " + person.lastName +". "
 + "I'm " +person.age + " years old. "+ "I live in " +person.city +".";
